@@ -1,0 +1,60 @@
+h1 {
+  font-size: 2.75rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+body {
+  line-height: 2;
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 4rem;
+  font-size: 1.5rem;
+
+  > li {
+    font-size: 1.25rem;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+}
+
+th {
+  border: 1px solid #FFF;
+  background-color: #5B9BD5;
+}
+
+td {
+  border: 1px solid #fff;
+}
+
+tr:nth-child(odd) {
+  > td {
+    background-color: #DDEAF6;
+  }
+}
+
+tr:nth-child(even) {
+  > td {
+    background-color: #D5DBE5;
+  }
+}
