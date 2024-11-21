@@ -5,9 +5,11 @@
       <slot />
     </main>
     <Banner />
+    <CountdownTimer />
   </div>
 </template>
 
 <script setup>
 import Banner from '../components/Banner.vue';
+import CountdownTimer from '../components/CountdownTimer.vue';
 </script>

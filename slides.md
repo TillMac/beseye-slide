@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 
 include: style.css
-layout: BeseyeCover
+layout: BeseyeLayout
 # some information about your slides (markdown enabled)
 title: Weekly Report
 info: |

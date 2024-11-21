@@ -58,3 +58,13 @@ tr:nth-child(even) {
     background-color: #D5DBE5;
   }
 }
+
+@keyframes custom-pulse {
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-pulse {
+  animation: custom-pulse .5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
